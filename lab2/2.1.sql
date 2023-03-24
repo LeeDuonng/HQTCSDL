@@ -1,0 +1,5 @@
+SELECT * FROM Sanpham;
+SELECT * FROM Hangsx;
+SELECT * FROM Nhanvien;
+SELECT * FROM Nhap;
+SELECT * FROM Xuat;
