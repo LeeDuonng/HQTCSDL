@@ -67,7 +67,7 @@ END;
 SELECT dbo.fn_TongGiaTriXuat('Samsung', 2022) AS 'TongGiaTriXuat';
 
 
---56
+--6
 CREATE FUNCTION fn_ThongKeNhanVienTheoPhong (@tenPhong NVARCHAR(30))
 RETURNS TABLE
 AS
@@ -118,7 +118,7 @@ SELECT COALESCE(SUM(nhap.soluongN), 0) + COALESCE(SUM(xuat.soluongX), 0) AS tong
   RETURN @tongNhapXuat;
 END;
 SELECT dbo.ThongKeSoLuongThayDoi('Galaxy Note11', 2020) AS TongNhapXuat;
---510
+--10
 CREATE FUNCTION ThongkeSoluongSanphamHangsx(@tenhang NVARCHAR(20))
 RETURNS INT
 AS
